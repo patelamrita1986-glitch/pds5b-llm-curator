@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<entrySet xmlns="http://psi.hupo.org/mi/mif">
+  <entry>
+    <interactionList>
+      <interaction>
+        <experimentList>
+          <experimentDescription>
+            <interactionDetectionMethod>
+              <names>not stated</names>
+              <xref>MI:0000</xref>
+            </interactionDetectionMethod>
+          </experimentDescription>
+        </experimentList>
+        <participantList>
+          <participant>
+            <interactorRef>PDS5B</interactorRef>
+            <uniprotRef>Q9NTI5</uniprotRef>
+          </participant>
+          <participant>
+            <interactorRef>NIPBL</interactorRef>
+            <uniprotRef>Q6KC79</uniprotRef>
+          </participant>
+        </participantList>
+      </interaction>
+      <interaction>
+        <experimentList>
+          <experimentDescription>
+            <interactionDetectionMethod>
+              <names>not stated</names>
+              <xref>MI:0000</xref>
+            </interactionDetectionMethod>
+          </experimentDescription>
+        </experimentList>
+        <participantList>
+          <participant>
+            <interactorRef>PDS5B</interactorRef>
+            <uniprotRef>Q9NTI5</uniprotRef>
+          </participant>
+          <participant>
+            <interactorRef>WAPL</interactorRef>
+            <uniprotRef>Q7Z5K2</uniprotRef>
+          </participant>
+        </participantList>
+      </interaction>
+      <interaction>
+        <experimentList>
+          <experimentDescription>
+            <interactionDetectionMethod>
+              <names>in vitro experiments</names>
+              <xref>MI:0000</xref>
+            </interactionDetectionMethod>
+          </experimentDescription>
+        </experimentList>
+        <participantList>
+          <participant>
+            <interactorRef>PDS5B</interactorRef>
+            <uniprotRef>Q9NTI5</uniprotRef>
+          </participant>
+          <participant>
+            <interactorRef>YTHDC1</interactorRef>
+            <uniprotRef>Q96MU7</uniprotRef>
+          </participant>
+        </participantList>
+      </interaction>
+    </interactionList>
+  </entry>
+</entrySet>
