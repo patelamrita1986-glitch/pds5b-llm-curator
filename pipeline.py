@@ -5,7 +5,7 @@ from extract import extract
 from map_uniprot import map_name_to_uniprot
 
 # Replace these with 3 PDS5B PMIDs you verify in PubMed (see D10)
-PMIDS = ["29217591", "35986423", "40591192"]
+PMIDS = ["29217591", "35986423", "40591192", "28343965", "40437074", "27924011"]
 
 rows = []
 for pmid in PMIDS:
