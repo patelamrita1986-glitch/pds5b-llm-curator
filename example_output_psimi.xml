@@ -6,8 +6,8 @@
         <experimentList>
           <experimentDescription>
             <interactionDetectionMethod>
-              <names>not stated</names>
-              <xref>MI:0686</xref>
+              <names>Affinity Capture-MS</names>
+              <xref>MI:0004</xref>
             </interactionDetectionMethod>
           </experimentDescription>
         </experimentList>
@@ -26,8 +26,8 @@
         <experimentList>
           <experimentDescription>
             <interactionDetectionMethod>
-              <names>not stated</names>
-              <xref>MI:0686</xref>
+              <names>Affinity Capture-Western</names>
+              <xref>MI:0004</xref>
             </interactionDetectionMethod>
           </experimentDescription>
         </experimentList>
@@ -46,8 +46,8 @@
         <experimentList>
           <experimentDescription>
             <interactionDetectionMethod>
-              <names>in vitro experiments</names>
-              <xref>MI:0686</xref>
+              <names>Affinity Capture-Western</names>
+              <xref>MI:0004</xref>
             </interactionDetectionMethod>
           </experimentDescription>
         </experimentList>
