@@ -7,7 +7,7 @@
           <experimentDescription>
             <interactionDetectionMethod>
               <names>not stated</names>
-              <xref>MI:0000</xref>
+              <xref>MI:0686</xref>
             </interactionDetectionMethod>
           </experimentDescription>
         </experimentList>
@@ -27,7 +27,7 @@
           <experimentDescription>
             <interactionDetectionMethod>
               <names>not stated</names>
-              <xref>MI:0000</xref>
+              <xref>MI:0686</xref>
             </interactionDetectionMethod>
           </experimentDescription>
         </experimentList>
@@ -47,7 +47,7 @@
           <experimentDescription>
             <interactionDetectionMethod>
               <names>in vitro experiments</names>
-              <xref>MI:0000</xref>
+              <xref>MI:0686</xref>
             </interactionDetectionMethod>
           </experimentDescription>
         </experimentList>
