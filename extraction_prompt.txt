@@ -1,0 +1,25 @@
+You are a biological data curator. From the abstract below, extract molecular
+interaction or macromolecular complex information involving PDS5B (also known
+as APRIN, AS3, PDS5 cohesin associated factor B).
+
+Return ONLY valid json with this exact schema:
+{
+  "interactors": [
+    {"name": "<protein name exactly as written in the abstract>", "uniprot": null}
+  ],
+  "interaction_or_complex": "interaction" or "complex",
+  "method": "<experimental method, or 'not stated'>",
+  "stoichiometry": "<e.g. 1:1, or 'not stated'>",
+  "evidence_sentence": "<exact sentence from the abstract supporting the PDS5B interaction>",
+  "confidence": <number between 0.0 and 1.0>
+}
+
+Rules:
+- Only extract what is explicitly supported by the abstract.
+- PDS5B is the anchor protein; list the OTHER interactor(s) in "interactors".
+- evidence_sentence MUST be copied verbatim from the abstract.
+- If no PDS5B interaction is described, return {"interactors": []}.
+- Do not invent UniProt IDs; always set "uniprot": null.
+
+Abstract:
+{abstract}
