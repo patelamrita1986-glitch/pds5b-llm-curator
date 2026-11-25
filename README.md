@@ -20,3 +20,7 @@ source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 # add GROQ_API_KEY to .env
 python src/pipeline.py
+
+****## PSI-MI XML Export****
+
+To demonstrate interoperability with standard biocuration workflows, the repository includes `export_psimi.py`. This script maps the extracted tabular data (interactors, UniProt IDs, and experimental methods) into a simplified PSI-MI XML format, utilizing standard MI ontology IDs (e.g., `MI:0000` for unknown methods). An example output can be found in `example_output_psimi.xml`.
