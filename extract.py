@@ -8,7 +8,7 @@ load_dotenv()
 client = Groq(api_key=os.environ["GROQ_API_KEY"])
 
 def extract(abstract: str) -> dict:
-    prompt = open("prompts/extraction_prompt.txt").read().replace("{abstract}", abstract)
+    prompt = open("/extraction_prompt.txt").read().replace("{abstract}", abstract)
     resp = client.chat.completions.create(
         model="openai/gpt-oss-20b",
         messages=[{"role": "user", "content": prompt}],
