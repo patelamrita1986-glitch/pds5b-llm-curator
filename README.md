@@ -19,7 +19,7 @@ python -m venv .venv
 source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 # add GROQ_API_KEY to .env
-python src/pipeline.py
+python pipeline.py
 
 ****## PSI-MI XML Export****
 
